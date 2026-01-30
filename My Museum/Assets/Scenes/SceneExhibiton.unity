@@ -514,6 +514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: _____Player_____
       objectReference: {fileID: 0}
+    - target: {fileID: 7081583853658312446, guid: db2bcbdb79089074799ae642f9537010, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8201136567254364422, guid: db2bcbdb79089074799ae642f9537010, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1162,7 +1166,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1657733879
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1579,6 +1583,10 @@ PrefabInstance:
     - target: {fileID: 5612774426865432593, guid: fdd9c4675420a1646bcf73d579c406ff, type: 3}
       propertyPath: m_Name
       value: XR Interaction Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5612774426865432593, guid: fdd9c4675420a1646bcf73d579c406ff, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8772603843608389811, guid: fdd9c4675420a1646bcf73d579c406ff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2066,10 +2074,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ______Interface______
       objectReference: {fileID: 0}
+    - target: {fileID: 3275033869943848335, guid: 0f7cf5ac31dc57640bc5ca33b3860b98, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4984201940834336772, guid: 0f7cf5ac31dc57640bc5ca33b3860b98, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1970368525}
+    - target: {fileID: 6212512401839330321, guid: 0f7cf5ac31dc57640bc5ca33b3860b98, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6537730132291188809, guid: 0f7cf5ac31dc57640bc5ca33b3860b98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2142,6 +2158,10 @@ PrefabInstance:
     - target: {fileID: 6665393459973045800, guid: 118d448e5148c554fa2890ec85037c77, type: 3}
       propertyPath: m_Name
       value: CameraMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6665393459973045800, guid: 118d448e5148c554fa2890ec85037c77, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
