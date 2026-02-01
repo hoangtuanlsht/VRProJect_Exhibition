@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class TeleportController : MonoBehaviour
 {
-    [SerializeField] public GameObject Player;
-    public void Teleport(GameObject teleportTarget)
+    [SerializeField] public Rigidbody playerRb;
+    public void Teleport(Transform teleportTarget)
     {
-        Player.transform.position = teleportTarget.transform.position;
+        playerRb.velocity = Vector3.zero;
+        playerRb.angularVelocity = Vector3.zero;
+        playerRb.position = teleportTarget.position;
     }
 }
