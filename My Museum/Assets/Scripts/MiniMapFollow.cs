@@ -17,7 +17,6 @@ public class MiniMapFollow : MonoBehaviour
         Vector3 newPosition = player.position;
         newPosition.y = transform.position.y; 
         transform.position = newPosition;
-        Debug.Log("camera move");
         // 2. XOAY (Tùy chọn):
         if (rotateWithPlayer)
         {

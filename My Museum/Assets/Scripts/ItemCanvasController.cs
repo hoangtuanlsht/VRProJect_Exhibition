@@ -8,9 +8,13 @@ public class ItemCanvasController : MonoBehaviour
     public PlayerSetLocomotionController locomotionController;
     public Vector3 scale = new Vector3(1f, 1f, 1f);
     public Vector3 rotation = new Vector3(0f, 0f, 0f);
+    public GameObject buttonBack;
+
     public void Start()
     {
         locomotionController = FindObjectOfType<PlayerSetLocomotionController>();
+        buttonBack = canvas.transform.Find("ButtonBackGround").gameObject;
+
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -25,6 +29,7 @@ public class ItemCanvasController : MonoBehaviour
         {
             canvas.SetActive(false);
             locomotionController.SetTrueLocomotion();
+            buttonBack.SetActive(true);
         }
     }
 }

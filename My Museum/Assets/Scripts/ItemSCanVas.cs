@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using Unity.XR.CoreUtils;
 using UnityEngine;
 
-public class PictureCanvasController : MonoBehaviour
+public class ItemSCanVas : MonoBehaviour
 {
-    public GameObject canvas; 
+    public GameObject canvas;
     public GameObject buttonBack;
-
+    
     public void Start()
     {
         buttonBack = canvas.transform.Find("ButtonBackGround").gameObject;
