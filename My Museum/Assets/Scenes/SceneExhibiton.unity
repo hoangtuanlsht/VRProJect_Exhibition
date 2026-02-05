@@ -8015,37 +8015,11 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 102906276150544052, guid: 54faac728f003ba48921f9d115761479, type: 3}
   m_PrefabInstance: {fileID: 1200214229}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &453563262
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 453563263}
-  m_Layer: 0
-  m_Name: KhiTai
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &453563263
+--- !u!4 &453563263 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3604707121356349271, guid: 54faac728f003ba48921f9d115761479, type: 3}
+  m_PrefabInstance: {fileID: 1200214229}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453563262}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -777, y: 214, z: -3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1408031671}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &456905346
 GameObject:
   m_ObjectHideFlags: 0
@@ -15503,7 +15477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 2fed3730d96842342902acced668ddcf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -30.62
+      value: -30.28
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 2fed3730d96842342902acced668ddcf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19024,10 +18998,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 410467440}
-    - target: {fileID: 597665602159030107, guid: 54faac728f003ba48921f9d115761479, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 47.8
-      objectReference: {fileID: 0}
     - target: {fileID: 618357586085570995, guid: 54faac728f003ba48921f9d115761479, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -19280,14 +19250,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1900232014}
-    - target: {fileID: 8439377322903431834, guid: 54faac728f003ba48921f9d115761479, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 693
-      objectReference: {fileID: 0}
-    - target: {fileID: 8439377322903431834, guid: 54faac728f003ba48921f9d115761479, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -305
-      objectReference: {fileID: 0}
     - target: {fileID: 8453730912228630375, guid: 54faac728f003ba48921f9d115761479, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -19326,10 +19288,7 @@ PrefabInstance:
       objectReference: {fileID: 410467440}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 2520289322959500918, guid: 54faac728f003ba48921f9d115761479, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 453563263}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54faac728f003ba48921f9d115761479, type: 3}
 --- !u!1 &1205017786
@@ -22353,11 +22312,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2774220344278030320, guid: ca4525c65be474e48b68284c1555593a, type: 3}
   m_PrefabInstance: {fileID: 1406141436}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1408031671 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2520289322959500918, guid: 54faac728f003ba48921f9d115761479, type: 3}
-  m_PrefabInstance: {fileID: 1200214229}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1412784678
 GameObject:
@@ -31105,7 +31059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1600796860
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31194,9 +31148,9 @@ Canvas:
   m_GameObject: {fileID: 1600796859}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1970368525}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
