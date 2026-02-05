@@ -7,10 +7,12 @@ public class PictureCanvasController : MonoBehaviour
 {
     public GameObject canvas; 
     public GameObject buttonBack;
+    public GameObject presentBack;
 
     public void Start()
     {
         buttonBack = canvas.transform.Find("ButtonBackGround").gameObject;
+        presentBack = canvas.transform.Find("PresentBackGround").gameObject;
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -25,6 +27,7 @@ public class PictureCanvasController : MonoBehaviour
         {
             canvas.SetActive(false);
             buttonBack.SetActive(true);
+            presentBack.SetActive(false);
         }
     }
 }

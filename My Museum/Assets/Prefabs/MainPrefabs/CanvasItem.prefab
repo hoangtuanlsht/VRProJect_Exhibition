@@ -905,7 +905,6 @@ GameObject:
   - component: {fileID: 8955983181563814487}
   - component: {fileID: 2974341573984573200}
   - component: {fileID: 3655462315861207745}
-  - component: {fileID: 4916993678144854642}
   m_Layer: 5
   m_Name: PresentBackGround
   m_TagString: Untagged
@@ -973,18 +972,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4916993678144854642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4540812543345776257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bceb0c01022bb746b8168d2e551f25c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5335972436015208642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,7 +1057,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &2048327124529070544
 MonoBehaviour:
   m_ObjectHideFlags: 0

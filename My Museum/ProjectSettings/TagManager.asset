@@ -11,8 +11,8 @@ TagManager:
   - MiniMapIcon
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Body
   - 
   - 
   - 
@@ -41,9 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: UI
-    uniqueID: 623337129
-    locked: 0
   - name: Body
     uniqueID: 4199590495
+    locked: 0
+  - name: UI
+    uniqueID: 623337129
     locked: 0
